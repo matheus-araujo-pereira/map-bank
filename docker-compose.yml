@@ -1,0 +1,33 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: map-bank-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: mapbank_db
+      POSTGRES_USER: mapbank
+      POSTGRES_PASSWORD: mapbank_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - mapbank_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U mapbank -d mapbank_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: map-bank-prometheus
+    restart: unless-stopped
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./docker/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+volumes:
+  mapbank_pgdata:
+    driver: local

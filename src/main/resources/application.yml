@@ -1,0 +1,67 @@
+server:
+  port: 8080
+  shutdown: graceful
+
+spring:
+  application:
+    name: map-bank
+  profiles:
+    active: dev
+  threads:
+    virtual:
+      enabled: true
+
+  lifecycle:
+    timeout-per-shutdown-phase: 20s
+
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+      indent-output: true
+
+# Spring Boot Actuator & Observabilidade Bancária
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "health,info,metrics,prometheus"
+  endpoint:
+    health:
+      show-details: always
+      probes:
+        enabled: true
+    prometheus:
+      enabled: true
+  metrics:
+    tags:
+      application: ${spring.application.name}
+      institution: "MAP-BANK"
+    distribution:
+      percentiles-histogram:
+        http.server.requests: true
+        map.bank.transaction.duration: true
+
+  # Rastreamento Distribuído com Micrometer Tracing (TraceId e SpanId)
+  tracing:
+    sampling:
+      probability: 1.0
+
+# Formatação Estruturada de Logs com TraceID e SpanID para Auditoria Bancária
+logging:
+  pattern:
+    level: "%5p [${spring.application.name},%X{traceId:-},%X{spanId:-}]"
+    console: "%clr(%d{yyyy-MM-dd HH:mm:ss.SSS}){faint} %clr(${LOG_LEVEL_PATTERN:%5p}) %clr([${spring.application.name},%X{traceId:-},%X{spanId:-}]){yellow} %clr(---){faint} %clr([%15.15t]){faint} %clr(%-40.40logger{39}){cyan} %clr(:){faint} %m%n${LOG_EXCEPTION_CONVERSION_WORD:%wEx}"
+  level:
+    root: INFO
+    com.mapbank: DEBUG
+    org.springframework.web: INFO
+    org.hibernate.SQL: INFO
+
+# SpringDoc OpenAPI 3 / Swagger
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    operationsSorter: method
+    tagsSorter: alpha
