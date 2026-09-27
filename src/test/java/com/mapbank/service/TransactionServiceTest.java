@@ -57,7 +57,7 @@ class TransactionServiceTest {
         SimpleMeterRegistry meterRegistry = new SimpleMeterRegistry();
         transactionService = new TransactionService(transactionRepository, accountRepository, pixKeyRepository, meterRegistry);
 
-        clientSource = new Client("Matheus Araújo Pereira", "12345678901", DocumentType.PF, "matheus@mapbank.com", "+5511999998888");
+        clientSource = new Client("Matheus Araujo Pereira", "12345678901", DocumentType.PF, "matheus@mapbank.com", "+5511999998888");
         clientSource.setId(1L);
 
         clientTarget = new Client("NTT DATA Brasil", "11222333000199", DocumentType.PJ, "contato@nttdata.com", "+551130001000");

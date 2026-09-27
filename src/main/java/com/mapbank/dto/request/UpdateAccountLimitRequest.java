@@ -8,7 +8,7 @@ import java.math.BigDecimal;
 /**
  * Record (Java 21) para ajuste do limite de cheque especial da conta bancária.
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @Schema(description = "Payload para ajuste do limite de cheque especial")
 public record UpdateAccountLimitRequest(

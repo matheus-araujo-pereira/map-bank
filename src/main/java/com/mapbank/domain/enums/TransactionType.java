@@ -3,7 +3,7 @@ package com.mapbank.domain.enums;
 /**
  * Operações bancárias e financeiras transacionáveis no ecossistema do MAP-Bank.
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 public enum TransactionType {
     DEPOSIT,

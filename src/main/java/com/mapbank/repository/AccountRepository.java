@@ -12,7 +12,7 @@ import java.util.Optional;
 /**
  * Repositório Spring Data JPA para gerenciamento e persistência de contas bancárias.
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @Repository
 public interface AccountRepository extends JpaRepository<Account, Long> {

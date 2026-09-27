@@ -9,14 +9,14 @@ import java.time.Instant;
 /**
  * Record (Java 21) representando os dados consolidados de um cliente titular.
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @Schema(description = "Dados detalhados do cliente titular")
 public record ClientResponse(
         @Schema(description = "Identificador único do cliente", example = "1")
         Long id,
 
-        @Schema(description = "Nome completo ou Razão Social", example = "Matheus Araújo Pereira")
+        @Schema(description = "Nome completo ou Razão Social", example = "Matheus Araujo Pereira")
         String name,
 
         @Schema(description = "Documento cadastrado (CPF/CNPJ)", example = "12345678901")

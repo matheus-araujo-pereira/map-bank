@@ -12,7 +12,7 @@ import java.util.Optional;
 /**
  * Repositório Spring Data JPA para contratos de crédito e financiamentos bancários.
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @Repository
 public interface LoanRepository extends JpaRepository<Loan, Long> {

@@ -7,7 +7,7 @@ import java.time.Instant;
 /**
  * Entidade representando uma chave de endereçamento PIX cadastrada no Diretório de Identificadores (DICT/BACEN).
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @Entity
 @Table(name = "tb_pix_keys")

@@ -29,7 +29,7 @@ import java.util.concurrent.ThreadLocalRandom;
 /**
  * Serviço de gestão de contas bancárias, saldos e limites do MAP-Bank.
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @Service
 public class AccountService {

@@ -34,7 +34,7 @@ import java.util.UUID;
  * <p>Utiliza o <b>Sistema Francês de Amortização (Tabela Price)</b> para cálculo de parcelas fixas
  * e juros compostos em operações de financiamento.</p>
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @Service
 public class LoanService {

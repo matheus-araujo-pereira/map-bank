@@ -10,7 +10,7 @@ import java.math.BigDecimal;
 /**
  * Record (Java 21) para solicitação de simulação de crédito e financiamento bancário.
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @Schema(description = "Payload para simulação de proposta de empréstimo")
 public record LoanSimulationRequest(

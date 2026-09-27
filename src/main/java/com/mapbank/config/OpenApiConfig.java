@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * Configuração da documentação OpenAPI 3 / Swagger UI do MAP-Bank.
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @Configuration
 public class OpenApiConfig {
@@ -23,11 +23,11 @@ public class OpenApiConfig {
                 .info(new Info()
                         .title("MAP-Bank API - Sistema Bancário Corporativo")
                         .version("1.0.0")
-                        .description("API REST corporativa do MAP-Bank (Matheus Araújo Pereira Bank). " +
+                        .description("API REST corporativa do MAP-Bank (Matheus Araujo Pereira Bank). " +
                                 "Construída com Java 21, Spring Boot 3.4, Virtual Threads, Observabilidade com Prometheus e PostgreSQL. " +
                                 "Desenvolvida como projeto de demonstração sênior/pleno para a NTT DATA.")
                         .contact(new Contact()
-                                .name("Matheus Araújo Pereira")
+                                .name("Matheus Araujo Pereira")
                                 .email("matheus.araujo@mapbank.com")
                                 .url("https://github.com/matheus-araujo-pereira"))
                         .license(new License()

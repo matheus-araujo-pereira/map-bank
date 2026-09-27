@@ -8,7 +8,7 @@ import java.time.Instant;
 /**
  * Record (Java 21) contendo os dados da chave PIX registrada.
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @Schema(description = "Dados da chave PIX cadastrada")
 public record PixKeyResponse(

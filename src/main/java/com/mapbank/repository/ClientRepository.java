@@ -11,7 +11,7 @@ import java.util.Optional;
 /**
  * Repositório Spring Data JPA para gerenciamento da persistência de clientes titulares.
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @Repository
 public interface ClientRepository extends JpaRepository<Client, Long> {

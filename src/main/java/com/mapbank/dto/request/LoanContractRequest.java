@@ -11,7 +11,7 @@ import java.math.BigDecimal;
 /**
  * Record (Java 21) para formalização e contratação de empréstimo bancário.
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @Schema(description = "Payload para contratação formal de empréstimo")
 public record LoanContractRequest(

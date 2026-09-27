@@ -9,7 +9,7 @@ import java.time.Instant;
 /**
  * Record (Java 21) contendo os dados do contrato de empréstimo ativo no MAP-Bank.
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @Schema(description = "Dados do contrato de empréstimo contratado")
 public record LoanResponse(

@@ -37,14 +37,14 @@ class ClientServiceTest {
     @BeforeEach
     void setUp() {
         validRequest = new CreateClientRequest(
-                "Matheus Araújo Pereira",
+                "Matheus Araujo Pereira",
                 "12345678901",
                 DocumentType.PF,
                 "matheus@mapbank.com",
                 "+5511999998888"
         );
 
-        mockClient = new Client("Matheus Araújo Pereira", "12345678901", DocumentType.PF, "matheus@mapbank.com", "+5511999998888");
+        mockClient = new Client("Matheus Araujo Pereira", "12345678901", DocumentType.PF, "matheus@mapbank.com", "+5511999998888");
         mockClient.setId(1L);
     }
 
@@ -59,7 +59,7 @@ class ClientServiceTest {
 
         assertThat(response).isNotNull();
         assertThat(response.id()).isEqualTo(1L);
-        assertThat(response.name()).isEqualTo("Matheus Araújo Pereira");
+        assertThat(response.name()).isEqualTo("Matheus Araujo Pereira");
         assertThat(response.document()).isEqualTo("12345678901");
         verify(clientRepository, times(1)).save(any(Client.class));
     }

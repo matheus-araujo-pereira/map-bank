@@ -9,7 +9,7 @@ import java.math.BigDecimal;
 /**
  * Record (Java 21) para transferência entre contas internas do MAP-Bank.
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @Schema(description = "Payload para transferência bancária entre contas")
 public record InternalTransferRequest(

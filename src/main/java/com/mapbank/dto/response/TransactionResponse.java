@@ -10,7 +10,7 @@ import java.time.Instant;
 /**
  * Record (Java 21) contendo o comprovante e extrato detalhado de uma transação financeira.
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @Schema(description = "Comprovante e dados da transação bancária")
 public record TransactionResponse(

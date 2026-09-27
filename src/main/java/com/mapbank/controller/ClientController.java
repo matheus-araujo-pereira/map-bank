@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.*;
 /**
  * Controller REST para gestão do ciclo de vida dos clientes titulares do MAP-Bank.
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @RestController
 @RequestMapping("/api/v1/clients")

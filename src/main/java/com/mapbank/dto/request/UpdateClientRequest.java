@@ -8,11 +8,11 @@ import jakarta.validation.constraints.Size;
 /**
  * Record (Java 21) para atualização dos dados cadastrais do cliente titular.
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @Schema(description = "Payload para atualização dos dados cadastrais do cliente")
 public record UpdateClientRequest(
-        @Schema(description = "Nome atualizado do cliente", example = "Matheus Araújo Pereira Atualizado")
+        @Schema(description = "Nome atualizado do cliente", example = "Matheus Araujo Pereira Atualizado")
         @NotBlank(message = "O nome é obrigatório")
         @Size(min = 3, max = 150, message = "O nome deve ter entre 3 e 150 caracteres")
         String name,

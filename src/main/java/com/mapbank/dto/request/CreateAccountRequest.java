@@ -9,7 +9,7 @@ import java.math.BigDecimal;
 /**
  * Record (Java 21) para abertura de uma nova conta bancária vinculada a um cliente.
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @Schema(description = "Payload para abertura de conta bancária")
 public record CreateAccountRequest(

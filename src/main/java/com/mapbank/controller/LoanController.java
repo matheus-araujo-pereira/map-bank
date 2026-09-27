@@ -19,7 +19,7 @@ import java.util.List;
 /**
  * Controller REST para simulação, contratação e amortização de operações de crédito.
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @RestController
 @RequestMapping("/api/v1/loans")

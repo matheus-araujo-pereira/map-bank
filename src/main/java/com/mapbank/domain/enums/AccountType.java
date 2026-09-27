@@ -9,7 +9,7 @@ package com.mapbank.domain.enums;
  *   <li>{@link #SALARIO}: Conta destinada exclusivamente ao recebimento de proventos salariais.</li>
  * </ul>
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 public enum AccountType {
     CORRENTE,

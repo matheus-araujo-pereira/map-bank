@@ -13,7 +13,7 @@ import org.springframework.scheduling.annotation.EnableAsync;
  * <b>Virtual Threads (Project Loom)</b> habilitado em {@code application.yml}
  * ({@code spring.threads.virtual.enabled=true}).</p>
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @SpringBootApplication
 @EnableAsync
@@ -22,7 +22,7 @@ public class MapBankApplication {
     private static final Logger log = LoggerFactory.getLogger(MapBankApplication.class);
 
     public static void main(String[] args) {
-        log.info("Inicializando o MAP-Bank (Matheus Araújo Pereira Bank) em Java 21 com Virtual Threads...");
+        log.info("Inicializando o MAP-Bank (Matheus Araujo Pereira Bank) em Java 21 com Virtual Threads...");
         SpringApplication.run(MapBankApplication.class, args);
         log.info("MAP-Bank inicializado com sucesso. Documentação Swagger UI em: http://localhost:8080/swagger-ui.html");
     }

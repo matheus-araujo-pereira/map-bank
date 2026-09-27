@@ -13,7 +13,7 @@ import java.util.Optional;
 /**
  * Repositório Spring Data JPA para auditoria contábil e extratos de transações financeiras.
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @Repository
 public interface TransactionRepository extends JpaRepository<Transaction, Long> {

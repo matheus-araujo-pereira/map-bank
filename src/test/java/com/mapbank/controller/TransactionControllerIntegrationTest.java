@@ -37,7 +37,7 @@ class TransactionControllerIntegrationTest {
     @DisplayName("Integração: Fluxo completo de Depósito, Transferência e PIX com Extrato")
     void testFullBankingTransactionLifecycle() throws Exception {
         // 1. Criar Cliente 1 (Matheus)
-        CreateClientRequest clientReq1 = new CreateClientRequest("Matheus Araújo Pereira", "55566677788", DocumentType.PF, "map.it1@bank.com", "11999991111");
+        CreateClientRequest clientReq1 = new CreateClientRequest("Matheus Araujo Pereira", "55566677788", DocumentType.PF, "map.it1@bank.com", "11999991111");
         String client1Json = mockMvc.perform(post("/api/v1/clients").contentType(MediaType.APPLICATION_JSON).content(objectMapper.writeValueAsString(clientReq1)))
                 .andExpect(status().isCreated()).andReturn().getResponse().getContentAsString();
         Integer client1Id = com.jayway.jsonpath.JsonPath.read(client1Json, "$.id");

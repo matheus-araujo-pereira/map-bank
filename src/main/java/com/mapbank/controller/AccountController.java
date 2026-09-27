@@ -20,7 +20,7 @@ import java.util.List;
 /**
  * Controller REST para abertura e gestão de contas bancárias no MAP-Bank.
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @RestController
 @RequestMapping("/api/v1/accounts")

@@ -8,7 +8,7 @@ import java.math.BigDecimal;
 /**
  * Record (Java 21) para amortização ou quitação de parcela de empréstimo bancário.
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @Schema(description = "Payload para amortização / pagamento de parcela de empréstimo")
 public record LoanPaymentRequest(

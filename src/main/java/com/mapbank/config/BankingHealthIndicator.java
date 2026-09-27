@@ -11,7 +11,7 @@ import java.time.Instant;
  *
  * <p>Exposto em {@code /actuator/health} para orquestradores (Kubernetes, AWS ECS) e ferramentas de monitoramento.</p>
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @Component
 public class BankingHealthIndicator implements HealthIndicator {

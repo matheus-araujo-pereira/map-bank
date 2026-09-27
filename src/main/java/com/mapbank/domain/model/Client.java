@@ -13,7 +13,7 @@ import java.util.List;
  * <p>Responsável por gerenciar os dados cadastrais, documentação perante a Receita Federal / BACEN
  * e vínculo com as contas bancárias ativas no ecossistema.</p>
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @Entity
 @Table(name = "tb_clients")

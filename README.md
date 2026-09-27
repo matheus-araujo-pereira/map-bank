@@ -1,4 +1,4 @@
-# 🏦 MAP-Bank (Matheus Araújo Pereira Bank)
+# 🏦 MAP-Bank (Matheus Araujo Pereira Bank)
 
 [![Java 21](https://img.shields.io/badge/Java-21%20LTS-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://openjdk.org/projects/jdk/21/)
 [![Spring Boot 3.4.3](https://img.shields.io/badge/Spring_Boot-3.4.3-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)](https://spring.io/projects/spring-boot)
@@ -8,7 +8,7 @@
 [![Swagger](https://img.shields.io/badge/OpenAPI_3-Swagger_UI-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)](http://localhost:8080/swagger-ui.html)
 
 > **Projeto Corporativo de Alta Performance para o Segmento Financeiro e Bancário**  
-> Desenvolvido por **Matheus Araújo Pereira (MAP)** como projeto prático demonstrando o estado da arte de engenharia back-end para a posição de **Desenvolvedor Java Pleno na NTT DATA**.
+> Desenvolvido por **Matheus Araujo Pereira (MAP)** como projeto prático demonstrando o estado da arte de engenharia back-end para a posição de **Desenvolvedor Java Pleno na NTT DATA**.
 
 ---
 
@@ -167,6 +167,6 @@ Consulte o documento completo [GUIA_DEFINITIVO_ENTREVISTA_NTT_DATA.md](GUIA_DEFI
 
 ---
 
-**Autor:** Matheus Araújo Pereira  
+**Autor:** Matheus Araujo Pereira  
 **GitHub:** [matheus-araujo-pereira](https://github.com/matheus-araujo-pereira)  
 **Licença:** Apache 2.0

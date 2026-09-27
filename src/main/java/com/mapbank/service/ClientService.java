@@ -18,7 +18,7 @@ import org.springframework.transaction.annotation.Transactional;
 /**
  * Serviço de gerenciamento do ciclo de vida de clientes titulares do MAP-Bank.
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @Service
 public class ClientService {

@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * Configuração global de observabilidade e métricas de microsserviço (Micrometer).
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @Configuration
 public class ObservabilityConfig {

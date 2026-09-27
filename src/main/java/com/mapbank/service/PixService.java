@@ -19,7 +19,7 @@ import java.util.List;
 /**
  * Serviço de gerenciamento do ecossistema de chaves de endereçamento PIX (BACEN DICT).
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @Service
 public class PixService {

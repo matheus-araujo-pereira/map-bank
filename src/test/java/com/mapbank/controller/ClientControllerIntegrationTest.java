@@ -33,7 +33,7 @@ class ClientControllerIntegrationTest {
     @DisplayName("Integração: Deve cadastrar e consultar cliente titular com sucesso")
     void testCreateAndGetClientEndpoint() throws Exception {
         CreateClientRequest request = new CreateClientRequest(
-                "Matheus Araújo Pereira",
+                "Matheus Araujo Pereira",
                 "11122233344",
                 DocumentType.PF,
                 "matheus.integration@mapbank.com",
@@ -44,7 +44,7 @@ class ClientControllerIntegrationTest {
                         .contentType(MediaType.APPLICATION_JSON)
                         .content(objectMapper.writeValueAsString(request)))
                 .andExpect(status().isCreated())
-                .andExpect(jsonPath("$.name", is("Matheus Araújo Pereira")))
+                .andExpect(jsonPath("$.name", is("Matheus Araujo Pereira")))
                 .andExpect(jsonPath("$.document", is("11122233344")))
                 .andReturn().getResponse().getContentAsString();
 

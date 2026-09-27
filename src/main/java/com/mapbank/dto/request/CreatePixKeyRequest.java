@@ -8,7 +8,7 @@ import jakarta.validation.constraints.NotNull;
 /**
  * Record (Java 21) para cadastro de nova chave de endereçamento PIX vinculada a uma conta.
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @Schema(description = "Payload para registro de chave PIX")
 public record CreatePixKeyRequest(

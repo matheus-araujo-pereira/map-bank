@@ -8,7 +8,7 @@ import java.math.BigDecimal;
 /**
  * Record (Java 21) para realização de depósito em conta bancária.
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @Schema(description = "Payload para realização de depósito financeiro em conta")
 public record DepositRequest(

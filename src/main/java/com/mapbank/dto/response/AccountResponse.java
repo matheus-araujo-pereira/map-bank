@@ -10,7 +10,7 @@ import java.time.Instant;
 /**
  * Record (Java 21) contendo as informações financeiras e cadastrais da conta bancária.
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @Schema(description = "Dados detalhados e saldo da conta bancária")
 public record AccountResponse(
@@ -41,7 +41,7 @@ public record AccountResponse(
         @Schema(description = "ID do cliente titular", example = "1")
         Long clientId,
 
-        @Schema(description = "Nome do cliente titular", example = "Matheus Araújo Pereira")
+        @Schema(description = "Nome do cliente titular", example = "Matheus Araujo Pereira")
         String clientName,
 
         @Schema(description = "Data de abertura da conta")

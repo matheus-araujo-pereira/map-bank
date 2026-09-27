@@ -13,7 +13,7 @@
     <artifactId>map-bank</artifactId>
     <version>1.0.0</version>
     <name>map-bank</name>
-    <description>MAP-Bank (Matheus Araújo Pereira Bank) - Sistema Bancário Corporativo de Alta Performance com Java 21, Spring Boot 3.4, Observabilidade e PostgreSQL</description>
+    <description>MAP-Bank (Matheus Araujo Pereira Bank) - Sistema Bancário Corporativo de Alta Performance com Java 21, Spring Boot 3.4, Observabilidade e PostgreSQL</description>
 
     <properties>
         <java.version>21</java.version>

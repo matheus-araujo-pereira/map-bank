@@ -38,7 +38,7 @@ import java.util.UUID;
  * via <b>Optimistic Locking</b> nas contas e instrumentação de métricas corporativas
  * através do <b>Micrometer (Prometheus)</b>.</p>
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @Service
 public class TransactionService {

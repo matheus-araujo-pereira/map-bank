@@ -16,7 +16,7 @@ import java.util.List;
 /**
  * Controller REST para o ecossistema de Chaves PIX (DICT) do MAP-Bank.
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @RestController
 @RequestMapping("/api/v1/pix")

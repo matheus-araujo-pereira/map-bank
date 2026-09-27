@@ -13,7 +13,7 @@ import java.time.Instant;
  * que funciona como chave de idempotência em conformidade com as diretrizes do BACEN
  * e padrões de engenharia bancária de alta disponibilidade.</p>
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @Entity
 @Table(name = "tb_transactions")

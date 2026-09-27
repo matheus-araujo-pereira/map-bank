@@ -43,7 +43,7 @@ class PixServiceTest {
 
     @BeforeEach
     void setUp() {
-        mockClient = new Client("Matheus Araújo Pereira", "12345678901", DocumentType.PF, "matheus@mapbank.com", "+5511999998888");
+        mockClient = new Client("Matheus Araujo Pereira", "12345678901", DocumentType.PF, "matheus@mapbank.com", "+5511999998888");
         mockAccount = new Account("10001-9", "0001", AccountType.CORRENTE, new BigDecimal("1000.00"), BigDecimal.ZERO, mockClient);
         mockAccount.setId(10L);
     }

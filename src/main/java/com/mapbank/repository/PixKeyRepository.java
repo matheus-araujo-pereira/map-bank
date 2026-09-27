@@ -9,7 +9,7 @@ import java.util.Optional;
 /**
  * Repositório Spring Data JPA para chaves PIX.
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @Repository
 public interface PixKeyRepository extends JpaRepository<PixKey, Long> {

@@ -8,7 +8,7 @@ import java.math.BigDecimal;
 /**
  * Record (Java 21) para realização de saque em conta bancária.
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @Schema(description = "Payload para realização de saque em espécie da conta")
 public record WithdrawRequest(

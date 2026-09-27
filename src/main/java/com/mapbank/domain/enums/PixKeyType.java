@@ -3,7 +3,7 @@ package com.mapbank.domain.enums;
 /**
  * Padrões de chaves de endereçamento suportados pelo Arranjo de Pagamentos PIX (BACEN).
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 public enum PixKeyType {
     CPF,

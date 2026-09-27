@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # ==============================================================================
-# MAP-BANK (Matheus Araújo Pereira Bank) - Script Executável de Testes da API
+# MAP-BANK (Matheus Araujo Pereira Bank) - Script Executável de Testes da API
 # Vaga: Desenvolvedor Java Pleno - NTT DATA
 # ==============================================================================
 

@@ -9,7 +9,7 @@ import java.math.BigDecimal;
 /**
  * Record (Java 21) para transferência instantânea via Arranjo PIX.
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @Schema(description = "Payload para realização de transferência instantânea via PIX")
 public record PixPaymentRequest(

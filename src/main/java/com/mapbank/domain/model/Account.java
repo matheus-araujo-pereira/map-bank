@@ -15,7 +15,7 @@ import java.util.List;
  * {@link Version} na coluna {@code version}, garantindo que operações concorrentes de débito
  * e crédito não gerem anomalias de <i>lost update</i> ou inconsistências de saldo.</p>
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @Entity
 @Table(name = "tb_accounts")

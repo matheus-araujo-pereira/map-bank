@@ -12,11 +12,11 @@ import jakarta.validation.constraints.Size;
  *
  * <p>Demonstra imutabilidade de dados, validações de Bean Validation Jakarta e anotações OpenAPI.</p>
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @Schema(description = "Payload para abertura de cadastro de cliente titular (PF/PJ)")
 public record CreateClientRequest(
-        @Schema(description = "Nome completo ou Razão Social", example = "Matheus Araújo Pereira")
+        @Schema(description = "Nome completo ou Razão Social", example = "Matheus Araujo Pereira")
         @NotBlank(message = "O nome é obrigatório")
         @Size(min = 3, max = 150, message = "O nome deve ter entre 3 e 150 caracteres")
         String name,

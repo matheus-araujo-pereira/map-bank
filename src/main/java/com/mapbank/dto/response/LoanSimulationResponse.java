@@ -6,7 +6,7 @@ import java.math.BigDecimal;
 /**
  * Record (Java 21) contendo a simulação calculada de proposta de crédito (Tabela Price).
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @Schema(description = "Resultado do cálculo e projeção de empréstimo")
 public record LoanSimulationResponse(

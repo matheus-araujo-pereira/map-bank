@@ -11,7 +11,7 @@ import java.time.Instant;
  * <p>Controla o valor do principal contratado, taxa de juros calculada, quantidade de parcelas,
  * saldo devedor remanescente e amortização.</p>
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @Entity
 @Table(name = "tb_loans")

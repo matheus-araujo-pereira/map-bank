@@ -1,5 +1,5 @@
 # 🎓 GUIA DEFINITIVO: ENTREVISTA TÉCNICA JAVA PLENO — NTT DATA
-**Candidato:** Matheus Araújo Pereira (MAP)  
+**Candidato:** Matheus Araujo Pereira (MAP)  
 **Projeto de Referência:** MAP-Bank (`com.mapbank`)  
 **Temas Centrais Solicitados pelo Avaliador:** Java 17 e 21, Spring Boot 3, Observabilidade, SQL/PostgreSQL e Boas Práticas Bancárias  
 

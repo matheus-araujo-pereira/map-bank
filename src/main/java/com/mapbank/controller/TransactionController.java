@@ -23,7 +23,7 @@ import java.time.Instant;
 /**
  * Controller REST para liquidação de transações financeiras e consultas de extrato contábil.
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @RestController
 @RequestMapping("/api/v1/transactions")

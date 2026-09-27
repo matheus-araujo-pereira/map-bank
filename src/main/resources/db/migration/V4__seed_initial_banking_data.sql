@@ -6,7 +6,7 @@
 -- 1. Clientes
 INSERT INTO tb_clients (id, name, document, document_type, email, phone, status, created_at)
 VALUES
-(1, 'Matheus Araújo Pereira', '12345678901', 'PF', 'matheus@mapbank.com', '+5511999998888', 'ACTIVE', CURRENT_TIMESTAMP),
+(1, 'Matheus Araujo Pereira', '12345678901', 'PF', 'matheus@mapbank.com', '+5511999998888', 'ACTIVE', CURRENT_TIMESTAMP),
 (2, 'NTT DATA Brasil Solucoes Tecnologicas', '11222333000199', 'PJ', 'contato@nttdata.com', '+551130001000', 'ACTIVE', CURRENT_TIMESTAMP),
 (3, 'Gabriel Souza Santos', '98765432100', 'PF', 'gabriel.souza@mapbank.com', '+5511977776666', 'ACTIVE', CURRENT_TIMESTAMP);
 

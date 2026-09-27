@@ -21,7 +21,7 @@ import java.util.Map;
  * <p>Centraliza o mapeamento de falhas de negócio, erros de validação e concorrência financeira,
  * gerando respostas padronizadas para clientes e microsserviços integrados.</p>
  *
- * @author Matheus Araújo Pereira
+ * @author Matheus Araujo Pereira
  */
 @RestControllerAdvice
 public class GlobalExceptionHandler {
